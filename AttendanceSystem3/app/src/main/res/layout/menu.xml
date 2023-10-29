@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/buttonViewstudent"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/buttonaddstudent"
+        android:textColor="@color/text_color"
+        android:background="@drawable/shadow"
+        android:layout_marginTop="18dp"
+        android:text="View student" >
+
+    </soup.neumorphism.NeumorphButton>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/buttonlogout"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonviewfaculty"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/shadow"
+        android:text="Logout"
+        android:textColor="@color/text_color">
+
+    </soup.neumorphism.NeumorphButton>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/buttonviewfaculty"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_above="@+id/buttonlogout"
+        android:layout_alignLeft="@+id/buttonaddfaculty"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shadow"
+        android:text="View faculty" >
+
+    </soup.neumorphism.NeumorphButton>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/buttonaddfaculty"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/buttonviewfaculty"
+        android:layout_alignLeft="@+id/buttonViewstudent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/shadow"
+        android:text="Add faculty"
+        android:textColor="@color/text_color">
+
+    </soup.neumorphism.NeumorphButton>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/buttonaddstudent"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/buttonViewstudent"
+        android:textColor="@color/text_color"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/shadow"
+        android:text="Add student" >
+
+    </soup.neumorphism.NeumorphButton>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/attendancePerStudentButton"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="353dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/buttonViewstudent"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/shadow"
+        android:text="Attandance Per Student"
+        android:textColor="@color/text_color">
+
+    </soup.neumorphism.NeumorphButton>
+
+</RelativeLayout>

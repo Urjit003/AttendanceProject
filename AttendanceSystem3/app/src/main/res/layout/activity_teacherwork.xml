@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Faculty.teacherwork">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Welcome"
+            android:textColor="@color/text_color"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:transitionName="textview" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Teacher"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:transitionName="textview" />
+
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/btnqrcode"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="qr code"
+            android:textColor="@color/text_color"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </soup.neumorphism.NeumorphButton>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/btn3"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/btn2"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="class`s"
+            android:textColor="@color/text_color"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </soup.neumorphism.NeumorphButton>
+
+    </LinearLayout>
+
+</RelativeLayout>
